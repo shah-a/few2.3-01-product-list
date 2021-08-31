@@ -1,5 +1,5 @@
 import './App.css';
-import data from '../data';
+import data, { categories, categoriesUnique, categoriesCount, namesAndCategories } from '../data';
 
 console.log(data);
 
