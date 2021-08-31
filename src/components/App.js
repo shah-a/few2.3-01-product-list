@@ -1,12 +1,12 @@
 import './App.css';
 import data, { categories, categoriesUnique, categoriesCount, namesAndCategories } from '../data';
 
-console.log(data);
+import Buttons from './Buttons/Buttons';
 
 function App() {
   return (
     <div className="App">
-      <h1>Salaam, World :)</h1>
+      <Buttons list={namesAndCategories} />
     </div>
   );
 }
