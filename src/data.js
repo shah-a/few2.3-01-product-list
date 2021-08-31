@@ -13,4 +13,8 @@ const categoriesCount = data.reduce((obj, product) => {
   return obj
 }, {});
 
-export default categoriesUnique;
+const namesAndCategories = categoriesUnique.map((category) => {
+  return { name: category, count: categoriesCount[category] }
+});
+
+export default namesAndCategories;
