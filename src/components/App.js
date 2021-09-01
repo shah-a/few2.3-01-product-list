@@ -6,7 +6,7 @@ import Buttons from './Buttons/Buttons';
 function App() {
   return (
     <div className="App">
-      <Buttons list={namesAndCategories} />
+      <Buttons categories={categoriesUnique} />
     </div>
   );
 }

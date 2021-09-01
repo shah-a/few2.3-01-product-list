@@ -3,8 +3,8 @@ import './Buttons.css';
 function Buttons(props) {
   return (
     <div className="buttons">
-      {props.list.map((category) => {
-        return <button>{category.name}</button>;
+      {props.categories.map((category) => {
+        return <button>{category}</button>;
       })}
     </div>
   );
