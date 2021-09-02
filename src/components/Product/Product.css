@@ -1,8 +1,24 @@
 .Product {
-  margin: 0 2em;
+  margin: 0 1em;
   padding: 1em;
   text-align: center;
-  background-color: var(--yellow);
+  box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.2);
   border: solid 1px var(--orange);
   border-radius: 1em;
+
+  background-image: linear-gradient(90deg, var(--white), var(--yellow));
+  background-size: 0% 5px;
+  background-repeat: no-repeat;
+  background-position: left bottom;
+  transition: background-size 0.2s ease;
+}
+
+.Product:hover {
+  background-size: 100% 5px;
+}
+
+.Product h1 {
+  background-image: linear-gradient(90deg, var(--red), var(--orange));
+  background-clip: text;
+  color: transparent;
 }
