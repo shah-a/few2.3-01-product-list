@@ -1,6 +1,7 @@
 {
   "name": "2.3-01-product-list",
   "version": "0.1.0",
+  "homepage": "https://shah-a.github.io/few2.3-01-product-list",
   "private": true,
   "dependencies": {
     "@testing-library/jest-dom": "^5.14.1",
