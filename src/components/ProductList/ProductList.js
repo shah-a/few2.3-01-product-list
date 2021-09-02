@@ -16,8 +16,8 @@ function ProductList(props) {
       <Product
         key={product.id}
         name={product.name}
+        description={product.description}
         price={product.price}
-        category={product.category}
       />
     );
   });
