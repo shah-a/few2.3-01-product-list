@@ -1,8 +1,8 @@
 .Product {
   margin: 0 2em;
+  padding: 1em;
   text-align: center;
-}
-
-h1 {
-  margin: 0;
+  background-color: var(--yellow);
+  border: solid 1px var(--orange);
+  border-radius: 1em;
 }

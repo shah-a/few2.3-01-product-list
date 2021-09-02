@@ -7,7 +7,7 @@
   max-width: 960px;
 }
 
-button {
+.Categories button {
   margin: 0.33em;
   padding: 0.25em 0.75em;
   font-family: inherit;
@@ -19,11 +19,11 @@ button {
   border-radius: 0.25em;
 }
 
-button:hover {
+.Categories button:hover {
   background-color: var(--red);
   transition: background-color 0.1s;
 }
 
-.selected {
+.Categories .selected {
   background-color: var(--red);
 }

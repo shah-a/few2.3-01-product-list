@@ -3,8 +3,6 @@ import data from '../../data';
 import Product from '../Product/Product';
 
 function ProductList(props) {
-  console.log(props.category);
-
   let products = data.filter((product) => {
     return (props.category === 'All' || product.category === props.category);
   });
