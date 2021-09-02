@@ -3,7 +3,13 @@ import data from '../../data';
 import Product from '../Product/Product';
 
 function ProductList(props) {
-  const products = data.map((product) => {
+  console.log(props.category);
+
+  let products = data.filter((product) => {
+    return (props.category === 'All' || product.category === props.category);
+  });
+
+  products = products.map((product) => {
     return (
       <Product
         key={product.id}
