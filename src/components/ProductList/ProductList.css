@@ -1,4 +1,4 @@
-.ProductList {
+.ProductList .grid {
   margin: 2em auto;
   max-width: 1280px;
   display: grid;
@@ -7,19 +7,23 @@
 }
 
 @media only screen and (max-width: 992px) {
-  .ProductList {
+  .ProductList .grid {
     grid-template-columns: repeat(3, 1fr);
   }
 }
 
 @media only screen and (max-width: 768px) {
-  .ProductList {
+  .ProductList .grid {
     grid-template-columns: repeat(2, 1fr);
   }
 }
 
 @media only screen and (max-width: 576px) {
-  .ProductList {
+  .ProductList .grid {
     grid-template-columns: 1fr;
   }
+}
+
+.ProductList > h1 {
+  text-align: center;
 }

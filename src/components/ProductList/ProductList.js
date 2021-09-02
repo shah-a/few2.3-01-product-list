@@ -7,6 +7,10 @@ function ProductList(props) {
     return (props.category === 'All' || product.category === props.category);
   });
 
+  const total = products.reduce((acc, product) => {
+    return acc + parseFloat(product.price.replace('$', ''));
+  }, 0);
+
   products = products.map((product) => {
     return (
       <Product
@@ -20,7 +24,10 @@ function ProductList(props) {
 
   return (
     <div className="ProductList">
-      {products}
+      <h1>Total Price: ${total.toFixed(2)}</h1>
+      <div className="grid">
+        {products}
+      </div>
     </div>
   );
 }
