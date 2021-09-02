@@ -2,6 +2,8 @@
   padding: 3em 1em;
   color: var(--white);
   background-color: var(--red);
+  position: sticky;
+  top: 100%;
 }
 
 .Footer p {

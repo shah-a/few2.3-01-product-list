@@ -23,4 +23,5 @@ https://howdns.works/
 .App {
   color: var(--black);
   background-color: var(--white);
+  min-height: 100vh;
 }

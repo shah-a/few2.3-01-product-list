@@ -1,8 +1,7 @@
 .Categories {
-  margin: 1em auto 0;
-
+  margin: 0 auto;
+  padding-top: 1em;
   text-align: center;
-
   width: 90%;
   max-width: 960px;
 }
