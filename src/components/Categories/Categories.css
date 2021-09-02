@@ -17,11 +17,11 @@ button {
   background-color: var(--blue);
   border: none;
   border-radius: 0.25em;
-  transition: all 0.1s;
 }
 
 button:hover {
   background-color: var(--red);
+  transition: background-color 0.1s;
 }
 
 .selected {
