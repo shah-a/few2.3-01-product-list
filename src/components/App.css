@@ -9,3 +9,8 @@ Colours:
 Colours palette from:
 https://howdns.works/
 */
+
+.App {
+  color: #010025;
+  /* background-color: #ffffff; */
+}

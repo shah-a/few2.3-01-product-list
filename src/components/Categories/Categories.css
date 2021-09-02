@@ -1,0 +1,14 @@
+.Categories {
+  text-align: center;
+  margin: 1em auto 0;
+  width: 90%;
+  max-width: 960px;
+}
+
+button {
+  color: inherit;
+  font-family: inherit;
+  font-weight: 500;
+  margin: 0.33em;
+  padding: 0.25em 0.75em;
+}
